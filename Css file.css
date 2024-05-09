@@ -1,0 +1,125 @@
+@keyframes fadeInAndSlide {
+  0% { 
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 72px;
+    font-family: 'Libre Baskerville', serif;
+    color: #03658C;
+    animation-name: fadeInAndSlide;
+    animation-duration: 2s;  
+    animation-iteration-count: 1; 
+}
+    
+h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  font-family: 'Libre Baskerville', serif;
+  color: #03658C;
+  animation-name: fadeInAndSlide;
+  animation-duration: 2s;  /* Animation takes 2 seconds */
+  animation-iteration-count: 1; /* Play the animation once */
+  
+}
+
+.button {
+    display: block;
+    width: 150px;  /* Example width */
+    margin: 0 auto;  /* Top/bottom margin of 0, auto side margins */    
+    background: linear-gradient(to right, #BF15B4, #03738C); 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;  
+    cursor: pointer;
+    
+  }
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+.button:hover {
+    background: linear-gradient(to left, #BF15B4, #03738C) 
+  }
+
+  .button2 {
+    display: block;
+    width: 150px;  /* Example width */
+    margin: 0 auto;  /* Top/bottom margin of 0, auto side margins */    
+    background: linear-gradient(to right, #01dec479, #b19d07); 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;  
+    cursor: pointer;
+    
+  }
+
+.button2-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+.button2:hover {
+    background: linear-gradient(to left, #e91717, #0e3d63) 
+  }
+
+.button3 {
+    display: block;
+    width: 150px;  /* Example width */
+    margin: 0 auto;  /* Top/bottom margin of 0, auto side margins */    
+    background: linear-gradient(to right, #118e6979, #b1075f); 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;  
+    cursor: pointer;
+    
+  }
+
+.button3-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+.button3:hover {
+    background: linear-gradient(to left, #833e3e, #0f88a3) 
+  }
+img {
+    display: block;
+    margin: 0 auto; 
+    transition: all 0.3s ease-in-out; 
+  }
+
+img:hover {
+    transform: scale(1.1);  
+    opacity: 0.8;           
+    filter: blur(30%); 
+  }
